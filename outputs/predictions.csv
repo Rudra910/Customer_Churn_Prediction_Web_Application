@@ -1,0 +1,501 @@
+Customer_ID,Age,Gender,Total_Spend,Average_Order_Value,Purchase_Frequency,Last_Purchase_Days,Customer_Rating,Complaint_Raised,Return_Count,churn_probability,churn,retention_strategy
+N0001,23,Male,4362.0,727.0,6,119,3.0,No,0,0.402,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0002,31,Female,4572.0,762.0,6,28,3.0,No,3,0.39,No,Low Risk: Send thank you email with appreciation message
+N0003,39,Male,3675.0,735.0,5,70,5.0,Yes,2,0.406,No,Low Risk: Offer early access to new product launches
+N0004,31,Female,2388.0,398.0,6,76,1.0,Yes,1,0.611,Yes,Medium Risk: Provide limited-time free delivery offer
+N0005,55,Female,3172.0,793.0,4,116,2.0,No,2,0.37,No,Low Risk: Offer early access to new product launches
+N0006,51,Male,1852.0,463.0,4,45,1.0,No,4,0.346,No,Low Risk: Send personalized birthday/anniversary offer
+N0007,18,Female,2538.0,423.0,6,32,2.0,No,5,0.374,No,Low Risk: Invite to VIP membership or premium plan
+N0008,51,Male,2445.0,489.0,5,100,1.0,No,3,0.38,No,Low Risk: Offer sneak peek of upcoming sales
+N0009,48,Male,1572.0,786.0,2,113,1.0,Yes,0,0.578,Yes,Medium Risk: Provide limited-time free delivery offer
+N0010,55,Female,3801.0,543.0,7,27,1.0,Yes,1,0.508,Yes,Medium Risk: Recommend trending products based on browsing history
+N0011,33,Male,2780.0,695.0,4,80,5.0,Yes,1,0.444,No,Low Risk: Offer early access to new product launches
+N0012,50,Female,1408.0,704.0,2,16,2.0,Yes,5,0.604,Yes,Medium Risk: Offer small discount (10%) on frequently viewed items
+N0013,36,Male,5760.0,480.0,12,71,2.0,No,2,0.454,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0014,52,Male,309.0,309.0,1,4,5.0,No,1,0.151,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0015,45,Female,5085.0,565.0,9,75,4.0,No,2,0.259,No,Low Risk: Provide bonus points for social sharing
+N0016,32,Female,5648.0,706.0,8,27,2.0,No,1,0.421,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0017,45,Female,2565.0,513.0,5,66,5.0,Yes,1,0.445,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0018,26,Female,2475.0,825.0,3,84,3.0,Yes,1,0.445,No,Low Risk: Provide exclusive loyalty program benefits
+N0019,21,Male,4155.0,831.0,5,108,2.0,Yes,0,0.557,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0020,31,Female,5328.0,666.0,8,110,3.0,No,1,0.335,No,Low Risk: Invite to VIP membership or premium plan
+N0021,30,Female,4220.0,844.0,5,14,3.0,No,2,0.428,No,Low Risk: Provide bonus points for social sharing
+N0022,32,Male,5544.0,792.0,7,102,5.0,Yes,4,0.494,No,Low Risk: Send personalized birthday/anniversary offer
+N0023,38,Male,2214.0,738.0,3,20,5.0,Yes,5,0.471,No,Low Risk: Provide bonus points for social sharing
+N0024,48,Female,4242.0,606.0,7,69,3.0,Yes,3,0.492,No,Low Risk: Offer early access to new product launches
+N0025,22,Female,586.0,586.0,1,86,4.0,No,2,0.191,No,Low Risk: Send thank you email with appreciation message
+N0026,27,Male,796.0,398.0,2,103,4.0,Yes,4,0.574,Yes,Medium Risk: Recommend trending products based on browsing history
+N0027,40,Male,9251.0,841.0,11,18,5.0,Yes,5,0.449,No,Low Risk: Invite to VIP membership or premium plan
+N0028,21,Male,1845.0,369.0,5,94,3.0,No,2,0.269,No,Low Risk: Offer early access to new product launches
+N0029,44,Female,1200.0,600.0,2,117,2.0,No,2,0.37,No,Low Risk: Provide exclusive loyalty program benefits
+N0030,25,Female,1630.0,326.0,5,2,5.0,Yes,4,0.356,No,Low Risk: Offer early access to new product launches
+N0031,56,Female,5904.0,738.0,8,65,4.0,No,0,0.258,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0032,31,Male,5760.0,640.0,9,91,1.0,No,5,0.463,No,Low Risk: Send personalized birthday/anniversary offer
+N0033,19,Female,2220.0,444.0,5,82,1.0,Yes,1,0.631,Yes,Medium Risk: Offer bundle deals on related products
+N0034,20,Female,3660.0,305.0,12,117,5.0,Yes,4,0.56,Yes,Medium Risk: Provide limited-time free delivery offer
+N0035,42,Male,4512.0,564.0,8,32,4.0,No,0,0.187,No,Low Risk: Send thank you email with appreciation message
+N0036,19,Male,2865.0,573.0,5,41,2.0,No,1,0.446,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0037,22,Female,3672.0,408.0,9,120,3.0,No,4,0.333,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0038,43,Female,945.0,315.0,3,35,5.0,No,2,0.127,No,Low Risk: Invite to VIP membership or premium plan
+N0039,40,Male,698.0,349.0,2,68,2.0,Yes,2,0.62,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0040,59,Female,5579.0,797.0,7,5,2.0,No,0,0.341,No,Low Risk: Send personalized birthday/anniversary offer
+N0041,54,Male,6292.0,572.0,11,48,4.0,No,3,0.247,No,Low Risk: Provide bonus points for social sharing
+N0042,45,Female,2192.0,548.0,4,41,1.0,Yes,0,0.616,Yes,Medium Risk: Send push notification for price drop on wishlist items
+N0043,30,Female,3000.0,375.0,8,25,3.0,Yes,4,0.572,Yes,Medium Risk: Send push notification for price drop on wishlist items
+N0044,24,Male,3474.0,579.0,6,40,3.0,Yes,1,0.434,No,Low Risk: Send personalized birthday/anniversary offer
+N0045,57,Male,980.0,490.0,2,4,5.0,No,4,0.153,No,Low Risk: Send thank you email with appreciation message
+N0046,59,Male,333.0,333.0,1,114,2.0,No,2,0.368,No,Low Risk: Offer sneak peek of upcoming sales
+N0047,36,Female,1815.0,605.0,3,8,3.0,Yes,0,0.512,Yes,Medium Risk: Offer bundle deals on related products
+N0048,22,Male,2547.0,849.0,3,50,1.0,No,4,0.395,No,Low Risk: Send thank you email with appreciation message
+N0049,38,Female,8060.0,806.0,10,28,3.0,No,3,0.381,No,Low Risk: Send personalized birthday/anniversary offer
+N0050,35,Male,3160.0,316.0,10,28,1.0,No,2,0.411,No,Low Risk: Share referral program with rewards
+N0051,49,Male,3485.0,697.0,5,41,4.0,No,0,0.226,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0052,27,Male,2448.0,306.0,8,23,1.0,No,5,0.406,No,Low Risk: Invite to VIP membership or premium plan
+N0053,44,Female,3185.0,455.0,7,69,4.0,No,4,0.235,No,Low Risk: Send personalized birthday/anniversary offer
+N0054,54,Female,8162.0,742.0,11,4,5.0,Yes,0,0.378,No,Low Risk: Send thank you email with appreciation message
+N0055,31,Male,617.0,617.0,1,42,4.0,Yes,5,0.476,No,Low Risk: Share referral program with rewards
+N0056,47,Male,9048.0,754.0,12,117,2.0,No,3,0.39,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0057,56,Female,1074.0,537.0,2,70,5.0,No,4,0.177,No,Low Risk: Provide bonus points for social sharing
+N0058,37,Female,5364.0,447.0,12,96,2.0,No,5,0.453,No,Low Risk: Offer early access to new product launches
+N0059,52,Male,7542.0,838.0,9,64,3.0,No,4,0.358,No,Low Risk: Invite to VIP membership or premium plan
+N0060,36,Female,1473.0,491.0,3,120,3.0,No,2,0.276,No,Low Risk: Offer early access to new product launches
+N0061,50,Male,3640.0,520.0,7,30,1.0,No,3,0.315,No,Low Risk: Send personalized birthday/anniversary offer
+N0062,29,Male,3685.0,335.0,11,109,2.0,No,5,0.431,No,Low Risk: Provide exclusive loyalty program benefits
+N0063,40,Male,3960.0,440.0,9,117,1.0,No,5,0.426,No,Low Risk: Provide bonus points for social sharing
+N0064,58,Male,3430.0,686.0,5,16,3.0,Yes,0,0.43,No,Low Risk: Send thank you email with appreciation message
+N0065,52,Male,4340.0,868.0,5,38,2.0,Yes,0,0.468,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0066,28,Male,1738.0,869.0,2,45,2.0,Yes,5,0.617,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0067,40,Male,4669.0,667.0,7,1,2.0,Yes,3,0.478,No,Low Risk: Provide exclusive loyalty program benefits
+N0068,51,Male,505.0,505.0,1,55,5.0,Yes,3,0.449,No,Low Risk: Offer sneak peek of upcoming sales
+N0069,20,Female,4962.0,827.0,6,16,2.0,Yes,0,0.535,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0070,45,Female,1064.0,532.0,2,114,2.0,No,1,0.348,No,Low Risk: Provide bonus points for social sharing
+N0071,32,Male,3475.0,695.0,5,19,2.0,No,3,0.388,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0072,24,Male,2224.0,556.0,4,94,1.0,Yes,0,0.661,Yes,Medium Risk: Offer small discount (10%) on frequently viewed items
+N0073,53,Female,3865.0,773.0,5,50,1.0,No,4,0.36,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0074,44,Female,3828.0,638.0,6,4,2.0,No,0,0.377,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0075,40,Female,1044.0,522.0,2,56,1.0,Yes,3,0.622,Yes,Medium Risk: Share customer reviews of previously viewed products
+N0076,19,Male,2800.0,560.0,5,40,4.0,Yes,5,0.527,Yes,Medium Risk: Send push notification for price drop on wishlist items
+N0077,37,Male,3504.0,584.0,6,80,5.0,No,3,0.299,No,Low Risk: Send thank you email with appreciation message
+N0078,27,Male,1082.0,541.0,2,43,3.0,Yes,2,0.529,Yes,Medium Risk: Offer small discount (10%) on frequently viewed items
+N0079,23,Female,2268.0,567.0,4,69,1.0,No,0,0.344,No,Low Risk: Offer early access to new product launches
+N0080,33,Female,4216.0,527.0,8,67,5.0,Yes,0,0.418,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0081,20,Male,8899.0,809.0,11,87,5.0,Yes,1,0.437,No,Low Risk: Offer sneak peek of upcoming sales
+N0082,56,Male,2106.0,351.0,6,38,3.0,Yes,5,0.571,Yes,Medium Risk: Send re-engagement email with new arrivals
+N0083,36,Female,7896.0,658.0,12,24,4.0,Yes,4,0.501,Yes,Medium Risk: Provide limited-time free delivery offer
+N0084,32,Male,887.0,887.0,1,34,5.0,Yes,2,0.393,No,Low Risk: Offer sneak peek of upcoming sales
+N0085,24,Male,1056.0,528.0,2,51,1.0,Yes,1,0.62,Yes,Medium Risk: Offer bundle deals on related products
+N0086,28,Male,720.0,360.0,2,59,1.0,No,3,0.348,No,Low Risk: Offer sneak peek of upcoming sales
+N0087,55,Female,3165.0,633.0,5,18,2.0,Yes,5,0.512,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0088,50,Male,1917.0,639.0,3,19,4.0,No,5,0.244,No,Low Risk: Send thank you email with appreciation message
+N0089,24,Female,8184.0,744.0,11,116,5.0,Yes,2,0.484,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0090,51,Female,2024.0,506.0,4,43,4.0,Yes,3,0.552,Yes,Medium Risk: Recommend trending products based on browsing history
+N0091,56,Female,2316.0,579.0,4,114,5.0,Yes,3,0.51,Yes,Medium Risk: Send re-engagement email with new arrivals
+N0092,54,Female,5860.0,586.0,10,76,4.0,Yes,1,0.476,No,Low Risk: Provide exclusive loyalty program benefits
+N0093,41,Female,4512.0,752.0,6,69,4.0,Yes,3,0.49,No,Low Risk: Provide bonus points for social sharing
+N0094,33,Female,9336.0,778.0,12,36,2.0,No,1,0.419,No,Low Risk: Invite to VIP membership or premium plan
+N0095,44,Female,7704.0,856.0,9,26,1.0,No,2,0.399,No,Low Risk: Offer sneak peek of upcoming sales
+N0096,59,Female,1554.0,518.0,3,70,1.0,Yes,0,0.597,Yes,Medium Risk: Offer small discount (10%) on frequently viewed items
+N0097,48,Female,5229.0,581.0,9,75,3.0,No,2,0.397,No,Low Risk: Offer early access to new product launches
+N0098,27,Male,2094.0,698.0,3,72,4.0,Yes,2,0.49,No,Low Risk: Send personalized birthday/anniversary offer
+N0099,48,Male,4419.0,491.0,9,103,4.0,Yes,3,0.484,No,Low Risk: Offer sneak peek of upcoming sales
+N0100,44,Male,3564.0,396.0,9,14,4.0,No,2,0.195,No,Low Risk: Offer sneak peek of upcoming sales
+N0101,59,Male,6273.0,697.0,9,59,3.0,No,5,0.375,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0102,19,Female,3088.0,386.0,8,93,3.0,Yes,4,0.583,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0103,43,Female,4384.0,548.0,8,50,4.0,No,0,0.237,No,Low Risk: Send personalized birthday/anniversary offer
+N0104,21,Male,2240.0,560.0,4,97,4.0,Yes,5,0.579,Yes,Medium Risk: Recommend trending products based on browsing history
+N0105,56,Female,7254.0,806.0,9,26,4.0,No,3,0.191,No,Low Risk: Send personalized birthday/anniversary offer
+N0106,60,Male,4311.0,479.0,9,13,4.0,No,4,0.181,No,Low Risk: Send personalized birthday/anniversary offer
+N0107,50,Female,4180.0,418.0,10,91,2.0,No,1,0.4,No,Low Risk: Offer sneak peek of upcoming sales
+N0108,32,Female,714.0,357.0,2,110,5.0,No,1,0.184,No,Low Risk: Send thank you email with appreciation message
+N0109,37,Female,4464.0,372.0,12,56,5.0,Yes,2,0.436,No,Low Risk: Send personalized birthday/anniversary offer
+N0110,26,Female,1374.0,458.0,3,120,3.0,No,1,0.287,No,Low Risk: Invite to VIP membership or premium plan
+N0111,29,Female,7596.0,844.0,9,101,1.0,No,0,0.433,No,Low Risk: Provide bonus points for social sharing
+N0112,28,Male,4440.0,888.0,5,104,1.0,Yes,5,0.632,Yes,Medium Risk: Offer small discount (10%) on frequently viewed items
+N0113,26,Male,3320.0,664.0,5,20,2.0,No,2,0.46,No,Low Risk: Send thank you email with appreciation message
+N0114,24,Female,2679.0,893.0,3,27,4.0,No,5,0.265,No,Low Risk: Offer sneak peek of upcoming sales
+N0115,44,Male,6664.0,833.0,8,88,1.0,Yes,1,0.519,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0116,26,Male,5740.0,820.0,7,83,5.0,No,1,0.35,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0117,43,Male,7686.0,854.0,9,111,4.0,Yes,3,0.47,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0118,38,Male,7281.0,809.0,9,117,4.0,Yes,5,0.513,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0119,23,Female,3695.0,739.0,5,28,5.0,No,0,0.323,No,Low Risk: Provide bonus points for social sharing
+N0120,25,Female,7245.0,805.0,9,50,2.0,Yes,0,0.595,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0121,44,Male,6096.0,508.0,12,106,1.0,No,1,0.356,No,Low Risk: Send personalized birthday/anniversary offer
+N0122,26,Female,6176.0,772.0,8,120,5.0,No,4,0.33,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0123,49,Female,5400.0,675.0,8,5,3.0,No,4,0.343,No,Low Risk: Send thank you email with appreciation message
+N0124,41,Female,2376.0,792.0,3,69,4.0,No,1,0.199,No,Low Risk: Invite to VIP membership or premium plan
+N0125,52,Female,7596.0,633.0,12,86,3.0,No,0,0.417,No,Low Risk: Provide exclusive loyalty program benefits
+N0126,23,Male,7407.0,823.0,9,39,5.0,Yes,4,0.472,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0127,28,Female,2450.0,490.0,5,43,5.0,No,5,0.22,No,Low Risk: Offer sneak peek of upcoming sales
+N0128,31,Female,8784.0,732.0,12,97,5.0,No,0,0.315,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0129,35,Male,4056.0,507.0,8,112,2.0,No,1,0.397,No,Low Risk: Send thank you email with appreciation message
+N0130,30,Female,7040.0,880.0,8,107,1.0,Yes,2,0.62,Yes,Medium Risk: Offer bundle deals on related products
+N0131,48,Male,2952.0,492.0,6,115,2.0,No,2,0.39,No,Low Risk: Invite to VIP membership or premium plan
+N0132,51,Female,3108.0,777.0,4,43,4.0,No,2,0.224,No,Low Risk: Send thank you email with appreciation message
+N0133,30,Male,3675.0,525.0,7,9,4.0,Yes,0,0.428,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0134,41,Male,3786.0,631.0,6,70,5.0,No,0,0.335,No,Low Risk: Share referral program with rewards
+N0135,58,Male,4980.0,498.0,10,87,3.0,Yes,2,0.441,No,Low Risk: Provide bonus points for social sharing
+N0136,31,Male,5805.0,645.0,9,21,2.0,No,5,0.413,No,Low Risk: Send personalized birthday/anniversary offer
+N0137,47,Female,1916.0,479.0,4,83,4.0,No,2,0.196,No,Low Risk: Offer early access to new product launches
+N0138,22,Female,8400.0,700.0,12,8,4.0,No,4,0.223,No,Low Risk: Provide bonus points for social sharing
+N0139,54,Female,412.0,412.0,1,88,3.0,Yes,4,0.651,Yes,Medium Risk: Offer bundle deals on related products
+N0140,32,Female,5202.0,578.0,9,59,5.0,Yes,3,0.475,No,Low Risk: Invite to VIP membership or premium plan
+N0141,48,Male,8481.0,771.0,11,106,2.0,Yes,5,0.557,Yes,Medium Risk: Provide limited-time free delivery offer
+N0142,34,Female,1354.0,677.0,2,107,1.0,No,5,0.447,No,Low Risk: Send thank you email with appreciation message
+N0143,45,Female,1227.0,409.0,3,36,2.0,No,5,0.337,No,Low Risk: Share referral program with rewards
+N0144,29,Female,1056.0,528.0,2,39,3.0,No,0,0.206,No,Low Risk: Provide bonus points for social sharing
+N0145,43,Male,3070.0,307.0,10,59,1.0,No,3,0.358,No,Low Risk: Offer early access to new product launches
+N0146,56,Female,4070.0,814.0,5,102,1.0,Yes,5,0.622,Yes,Medium Risk: Provide limited-time free delivery offer
+N0147,54,Female,1346.0,673.0,2,9,3.0,Yes,0,0.496,No,Low Risk: Offer sneak peek of upcoming sales
+N0148,50,Female,3056.0,382.0,8,27,1.0,Yes,1,0.495,No,Low Risk: Invite to VIP membership or premium plan
+N0149,53,Male,4581.0,509.0,9,2,2.0,No,5,0.349,No,Low Risk: Send personalized birthday/anniversary offer
+N0150,55,Male,936.0,312.0,3,33,2.0,No,3,0.285,No,Low Risk: Offer sneak peek of upcoming sales
+N0151,50,Female,5528.0,691.0,8,48,2.0,Yes,2,0.533,Yes,Medium Risk: Recommend trending products based on browsing history
+N0152,30,Male,4722.0,787.0,6,80,2.0,No,2,0.485,No,Low Risk: Invite to VIP membership or premium plan
+N0153,48,Male,4158.0,378.0,11,48,2.0,Yes,5,0.531,Yes,Medium Risk: Offer bundle deals on related products
+N0154,27,Male,3056.0,764.0,4,83,4.0,Yes,1,0.454,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0155,59,Male,7656.0,696.0,11,103,4.0,No,5,0.28,No,Low Risk: Share referral program with rewards
+N0156,34,Male,6272.0,896.0,7,9,3.0,Yes,4,0.503,Yes,Medium Risk: Provide limited-time free delivery offer
+N0157,45,Male,8037.0,893.0,9,47,1.0,Yes,3,0.526,Yes,Medium Risk: Provide limited-time free delivery offer
+N0158,53,Male,1378.0,689.0,2,88,5.0,Yes,5,0.487,No,Low Risk: Share referral program with rewards
+N0159,55,Male,5214.0,869.0,6,20,3.0,No,4,0.325,No,Low Risk: Invite to VIP membership or premium plan
+N0160,30,Female,4460.0,446.0,10,102,1.0,Yes,1,0.583,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0161,40,Female,1452.0,726.0,2,75,3.0,Yes,5,0.611,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0162,39,Female,1424.0,356.0,4,102,4.0,Yes,5,0.523,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0163,46,Male,5705.0,815.0,7,33,4.0,No,2,0.222,No,Low Risk: Invite to VIP membership or premium plan
+N0164,51,Male,2233.0,319.0,7,91,5.0,Yes,0,0.454,No,Low Risk: Provide exclusive loyalty program benefits
+N0165,58,Female,6490.0,590.0,11,41,3.0,No,4,0.369,No,Low Risk: Provide exclusive loyalty program benefits
+N0166,48,Male,3052.0,763.0,4,113,3.0,Yes,3,0.491,No,Low Risk: Send thank you email with appreciation message
+N0167,29,Female,1520.0,760.0,2,84,1.0,No,0,0.345,No,Low Risk: Provide exclusive loyalty program benefits
+N0168,41,Male,1680.0,336.0,5,38,3.0,Yes,2,0.514,Yes,Medium Risk: Offer small discount (10%) on frequently viewed items
+N0169,18,Female,5067.0,563.0,9,101,4.0,Yes,2,0.49,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0170,50,Female,7730.0,773.0,10,89,2.0,Yes,3,0.516,Yes,Medium Risk: Recommend trending products based on browsing history
+N0171,30,Female,7605.0,845.0,9,77,2.0,Yes,2,0.598,Yes,Medium Risk: Offer bundle deals on related products
+N0172,24,Female,7308.0,812.0,9,78,3.0,Yes,2,0.485,No,Low Risk: Offer early access to new product launches
+N0173,31,Male,1042.0,521.0,2,98,5.0,No,3,0.206,No,Low Risk: Provide bonus points for social sharing
+N0174,38,Male,2072.0,518.0,4,75,2.0,No,2,0.317,No,Low Risk: Offer sneak peek of upcoming sales
+N0175,48,Male,4020.0,335.0,12,117,3.0,No,4,0.35,No,Low Risk: Provide exclusive loyalty program benefits
+N0176,54,Female,1338.0,446.0,3,58,4.0,No,1,0.147,No,Low Risk: Provide bonus points for social sharing
+N0177,21,Female,1323.0,441.0,3,52,5.0,No,2,0.142,No,Low Risk: Invite to VIP membership or premium plan
+N0178,56,Male,3504.0,876.0,4,61,2.0,Yes,2,0.488,No,Low Risk: Send personalized birthday/anniversary offer
+N0179,32,Female,5390.0,770.0,7,91,4.0,Yes,4,0.529,Yes,Medium Risk: Offer bundle deals on related products
+N0180,59,Female,694.0,347.0,2,75,1.0,No,2,0.339,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0181,22,Female,3982.0,362.0,11,35,5.0,Yes,4,0.501,Yes,Medium Risk: Share customer reviews of previously viewed products
+N0182,41,Female,3224.0,403.0,8,81,1.0,No,3,0.371,No,Low Risk: Provide bonus points for social sharing
+N0183,29,Female,3000.0,750.0,4,39,4.0,Yes,1,0.463,No,Low Risk: Share referral program with rewards
+N0184,34,Female,383.0,383.0,1,65,3.0,Yes,0,0.541,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0185,43,Male,3126.0,521.0,6,44,1.0,No,4,0.378,No,Low Risk: Invite to VIP membership or premium plan
+N0186,59,Female,1900.0,475.0,4,23,2.0,Yes,5,0.606,Yes,Medium Risk: Recommend trending products based on browsing history
+N0187,23,Female,2589.0,863.0,3,37,3.0,Yes,5,0.531,Yes,Medium Risk: Share customer reviews of previously viewed products
+N0188,41,Male,899.0,899.0,1,76,5.0,No,4,0.2,No,Low Risk: Provide bonus points for social sharing
+N0189,46,Female,6032.0,754.0,8,71,1.0,No,1,0.407,No,Low Risk: Provide exclusive loyalty program benefits
+N0190,27,Female,6410.0,641.0,10,54,5.0,No,2,0.383,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0191,34,Male,1252.0,313.0,4,43,4.0,No,5,0.245,No,Low Risk: Invite to VIP membership or premium plan
+N0192,21,Female,5775.0,825.0,7,77,2.0,Yes,5,0.551,Yes,Medium Risk: Send push notification for price drop on wishlist items
+N0193,26,Male,7073.0,643.0,11,16,5.0,No,5,0.257,No,Low Risk: Invite to VIP membership or premium plan
+N0194,20,Female,7344.0,612.0,12,3,4.0,No,4,0.205,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0195,35,Male,7335.0,815.0,9,120,4.0,Yes,2,0.472,No,Low Risk: Send thank you email with appreciation message
+N0196,58,Male,612.0,306.0,2,70,2.0,Yes,3,0.657,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0197,58,Female,9141.0,831.0,11,117,5.0,Yes,4,0.456,No,Low Risk: Send thank you email with appreciation message
+N0198,47,Female,8822.0,802.0,11,59,3.0,Yes,4,0.564,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0199,60,Male,3276.0,546.0,6,73,1.0,Yes,0,0.5,Yes,Medium Risk: Recommend trending products based on browsing history
+N0200,47,Male,4712.0,589.0,8,46,2.0,Yes,1,0.488,No,Low Risk: Provide bonus points for social sharing
+N0201,44,Female,1555.0,311.0,5,34,1.0,Yes,0,0.562,Yes,Medium Risk: Share customer reviews of previously viewed products
+N0202,60,Male,4477.0,407.0,11,37,2.0,Yes,1,0.46,No,Low Risk: Offer sneak peek of upcoming sales
+N0203,22,Male,1600.0,320.0,5,13,4.0,No,3,0.155,No,Low Risk: Provide bonus points for social sharing
+N0204,52,Male,3468.0,867.0,4,15,2.0,No,4,0.314,No,Low Risk: Provide bonus points for social sharing
+N0205,24,Male,2556.0,852.0,3,98,3.0,Yes,4,0.539,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0206,53,Male,1624.0,812.0,2,112,1.0,Yes,5,0.703,Yes,Medium Risk: Send re-engagement email with new arrivals
+N0207,38,Female,1854.0,618.0,3,61,1.0,No,4,0.368,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0208,45,Female,1740.0,348.0,5,39,3.0,No,5,0.296,No,Low Risk: Invite to VIP membership or premium plan
+N0209,21,Female,2724.0,454.0,6,4,3.0,No,4,0.372,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0210,41,Male,2799.0,311.0,9,87,2.0,No,5,0.389,No,Low Risk: Offer early access to new product launches
+N0211,18,Female,658.0,329.0,2,97,1.0,Yes,0,0.625,Yes,Medium Risk: Send push notification for price drop on wishlist items
+N0212,39,Male,5360.0,536.0,10,71,3.0,No,4,0.411,No,Low Risk: Offer sneak peek of upcoming sales
+N0213,45,Female,4788.0,684.0,7,28,3.0,Yes,4,0.509,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0214,31,Female,1290.0,645.0,2,92,1.0,Yes,4,0.674,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0215,39,Male,5866.0,838.0,7,92,5.0,No,0,0.298,No,Low Risk: Send thank you email with appreciation message
+N0216,57,Female,6039.0,549.0,11,97,3.0,Yes,1,0.479,No,Low Risk: Offer sneak peek of upcoming sales
+N0217,46,Female,998.0,499.0,2,86,2.0,Yes,1,0.612,Yes,Medium Risk: Provide limited-time free delivery offer
+N0218,35,Female,4576.0,416.0,11,9,4.0,Yes,2,0.464,No,Low Risk: Provide exclusive loyalty program benefits
+N0219,37,Male,4536.0,648.0,7,23,2.0,Yes,3,0.552,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0220,25,Male,4285.0,857.0,5,2,4.0,Yes,4,0.487,No,Low Risk: Share referral program with rewards
+N0221,34,Male,5922.0,658.0,9,51,2.0,Yes,3,0.569,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0222,20,Female,2736.0,304.0,9,43,1.0,No,4,0.392,No,Low Risk: Provide bonus points for social sharing
+N0223,57,Male,4473.0,639.0,7,57,5.0,No,3,0.278,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0224,49,Male,2307.0,769.0,3,44,3.0,No,2,0.251,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0225,35,Male,1998.0,666.0,3,50,4.0,Yes,4,0.515,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0226,58,Male,3444.0,492.0,7,32,3.0,Yes,3,0.454,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0227,44,Male,1377.0,459.0,3,75,1.0,No,2,0.339,No,Low Risk: Invite to VIP membership or premium plan
+N0228,35,Female,5616.0,624.0,9,81,4.0,Yes,0,0.451,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0229,30,Female,4032.0,336.0,12,72,1.0,Yes,4,0.633,Yes,Medium Risk: Offer small discount (10%) on frequently viewed items
+N0230,37,Male,3556.0,889.0,4,100,5.0,Yes,3,0.459,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0231,44,Female,5820.0,582.0,10,4,4.0,No,2,0.197,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0232,43,Male,4930.0,493.0,10,57,1.0,No,4,0.357,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0233,18,Female,3816.0,424.0,9,4,5.0,Yes,5,0.51,Yes,Medium Risk: Offer bundle deals on related products
+N0234,49,Female,10464.0,872.0,12,70,1.0,Yes,2,0.566,Yes,Medium Risk: Recommend trending products based on browsing history
+N0235,48,Male,664.0,332.0,2,64,3.0,Yes,1,0.533,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0236,57,Female,1850.0,370.0,5,33,2.0,Yes,2,0.611,Yes,Medium Risk: Share customer reviews of previously viewed products
+N0237,54,Male,1268.0,634.0,2,98,4.0,Yes,2,0.506,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0238,49,Male,1925.0,385.0,5,27,5.0,No,2,0.122,No,Low Risk: Send personalized birthday/anniversary offer
+N0239,43,Female,881.0,881.0,1,52,1.0,No,5,0.412,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0240,36,Male,6251.0,893.0,7,47,2.0,Yes,0,0.509,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0241,43,Female,761.0,761.0,1,72,3.0,No,4,0.288,No,Low Risk: Share referral program with rewards
+N0242,26,Female,760.0,760.0,1,75,4.0,No,5,0.282,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0243,50,Female,2619.0,873.0,3,46,1.0,No,3,0.318,No,Low Risk: Provide bonus points for social sharing
+N0244,50,Female,1977.0,659.0,3,82,3.0,Yes,3,0.577,Yes,Medium Risk: Provide limited-time free delivery offer
+N0245,33,Female,6888.0,861.0,8,118,3.0,No,4,0.336,No,Low Risk: Send thank you email with appreciation message
+N0246,29,Female,2886.0,481.0,6,89,2.0,No,2,0.436,No,Low Risk: Offer sneak peek of upcoming sales
+N0247,60,Female,920.0,460.0,2,15,3.0,No,3,0.218,No,Low Risk: Send personalized birthday/anniversary offer
+N0248,54,Female,824.0,412.0,2,58,3.0,Yes,0,0.541,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0249,59,Male,4410.0,441.0,10,17,4.0,Yes,4,0.508,Yes,Medium Risk: Offer small discount (10%) on frequently viewed items
+N0250,55,Female,2379.0,793.0,3,100,3.0,Yes,4,0.543,Yes,Medium Risk: Provide limited-time free delivery offer
+N0251,60,Male,2728.0,341.0,8,11,3.0,No,5,0.299,No,Low Risk: Invite to VIP membership or premium plan
+N0252,57,Male,2730.0,546.0,5,106,4.0,No,1,0.262,No,Low Risk: Provide bonus points for social sharing
+N0253,28,Female,874.0,437.0,2,20,4.0,Yes,5,0.489,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0254,58,Female,5892.0,491.0,12,48,5.0,No,3,0.332,No,Low Risk: Offer sneak peek of upcoming sales
+N0255,36,Female,1204.0,301.0,4,71,1.0,No,5,0.39,No,Low Risk: Send thank you email with appreciation message
+N0256,54,Male,6248.0,568.0,11,53,3.0,Yes,0,0.448,No,Low Risk: Offer sneak peek of upcoming sales
+N0257,57,Female,5520.0,690.0,8,21,4.0,Yes,4,0.496,No,Low Risk: Send thank you email with appreciation message
+N0258,56,Female,2910.0,485.0,6,36,5.0,Yes,5,0.536,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0259,37,Male,4807.0,437.0,11,59,4.0,Yes,3,0.512,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0260,59,Female,1725.0,345.0,5,99,3.0,Yes,5,0.6,Yes,Medium Risk: Share customer reviews of previously viewed products
+N0261,28,Female,3025.0,605.0,5,83,3.0,Yes,0,0.477,No,Low Risk: Send personalized birthday/anniversary offer
+N0262,49,Male,1525.0,305.0,5,10,5.0,No,3,0.119,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0263,26,Female,2244.0,748.0,3,12,4.0,Yes,5,0.523,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0264,34,Female,5320.0,760.0,7,113,5.0,No,0,0.306,No,Low Risk: Offer sneak peek of upcoming sales
+N0265,43,Male,1608.0,536.0,3,70,5.0,Yes,1,0.43,No,Low Risk: Share referral program with rewards
+N0266,59,Female,2952.0,492.0,6,5,4.0,No,3,0.157,No,Low Risk: Invite to VIP membership or premium plan
+N0267,20,Male,3570.0,595.0,6,64,3.0,No,5,0.367,No,Low Risk: Share referral program with rewards
+N0268,58,Female,5248.0,656.0,8,97,5.0,No,0,0.333,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0269,48,Female,5040.0,630.0,8,95,1.0,No,1,0.403,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0270,25,Female,9252.0,771.0,12,87,4.0,No,0,0.292,No,Low Risk: Share referral program with rewards
+N0271,27,Female,3164.0,791.0,4,113,5.0,Yes,4,0.546,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0272,31,Male,8060.0,806.0,10,19,2.0,No,4,0.398,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0273,40,Male,5334.0,762.0,7,97,3.0,No,0,0.388,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0274,29,Female,1686.0,562.0,3,93,5.0,Yes,5,0.504,Yes,Medium Risk: Recommend trending products based on browsing history
+N0275,21,Female,6040.0,755.0,8,69,3.0,Yes,4,0.577,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0276,24,Male,5440.0,680.0,8,30,3.0,Yes,0,0.448,No,Low Risk: Offer early access to new product launches
+N0277,58,Female,2188.0,547.0,4,6,4.0,Yes,5,0.581,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0278,44,Male,8217.0,747.0,11,20,4.0,Yes,1,0.456,No,Low Risk: Provide bonus points for social sharing
+N0279,35,Male,4086.0,681.0,6,19,2.0,No,4,0.373,No,Low Risk: Send personalized birthday/anniversary offer
+N0280,47,Female,3700.0,740.0,5,80,4.0,Yes,2,0.472,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0281,37,Male,877.0,877.0,1,30,1.0,No,3,0.334,No,Low Risk: Invite to VIP membership or premium plan
+N0282,24,Female,8316.0,756.0,11,12,2.0,No,5,0.433,No,Low Risk: Send personalized birthday/anniversary offer
+N0283,28,Male,7092.0,788.0,9,83,4.0,No,5,0.273,No,Low Risk: Send personalized birthday/anniversary offer
+N0284,58,Female,1984.0,496.0,4,2,5.0,No,0,0.116,No,Low Risk: Provide exclusive loyalty program benefits
+N0285,56,Female,2697.0,899.0,3,40,5.0,Yes,5,0.489,No,Low Risk: Provide exclusive loyalty program benefits
+N0286,59,Female,6072.0,759.0,8,6,5.0,No,4,0.246,No,Low Risk: Provide bonus points for social sharing
+N0287,36,Male,1230.0,615.0,2,58,4.0,No,2,0.154,No,Low Risk: Share referral program with rewards
+N0288,27,Male,1596.0,798.0,2,120,1.0,Yes,5,0.739,Yes,Medium Risk: Share customer reviews of previously viewed products
+N0289,23,Female,6780.0,678.0,10,103,3.0,Yes,5,0.58,Yes,Medium Risk: Share customer reviews of previously viewed products
+N0290,23,Male,354.0,354.0,1,59,1.0,Yes,2,0.68,Yes,Medium Risk: Offer small discount (10%) on frequently viewed items
+N0291,51,Female,2871.0,319.0,9,40,3.0,No,3,0.317,No,Low Risk: Share referral program with rewards
+N0292,39,Female,632.0,316.0,2,23,1.0,Yes,3,0.593,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0293,40,Female,3780.0,540.0,7,113,3.0,Yes,1,0.46,No,Low Risk: Send thank you email with appreciation message
+N0294,54,Male,1374.0,458.0,3,45,2.0,No,1,0.282,No,Low Risk: Offer early access to new product launches
+N0295,41,Male,5128.0,641.0,8,114,3.0,Yes,3,0.479,No,Low Risk: Send personalized birthday/anniversary offer
+N0296,22,Female,4488.0,748.0,6,81,4.0,No,3,0.255,No,Low Risk: Provide bonus points for social sharing
+N0297,24,Male,4214.0,602.0,7,97,5.0,No,0,0.33,No,Low Risk: Provide bonus points for social sharing
+N0298,35,Female,3627.0,403.0,9,63,1.0,No,2,0.398,No,Low Risk: Provide bonus points for social sharing
+N0299,42,Male,1645.0,329.0,5,60,5.0,No,4,0.151,No,Low Risk: Send thank you email with appreciation message
+N0300,55,Female,1398.0,699.0,2,73,3.0,No,4,0.267,No,Low Risk: Invite to VIP membership or premium plan
+N0301,48,Female,7911.0,879.0,9,44,1.0,No,1,0.375,No,Low Risk: Send personalized birthday/anniversary offer
+N0302,23,Male,5225.0,475.0,11,93,4.0,No,2,0.284,No,Low Risk: Provide exclusive loyalty program benefits
+N0303,27,Male,9756.0,813.0,12,80,2.0,Yes,3,0.588,Yes,Medium Risk: Send re-engagement email with new arrivals
+N0304,47,Male,816.0,408.0,2,64,1.0,Yes,2,0.623,Yes,Medium Risk: Send push notification for price drop on wishlist items
+N0305,43,Female,1035.0,345.0,3,85,5.0,Yes,0,0.406,No,Low Risk: Send personalized birthday/anniversary offer
+N0306,28,Male,9295.0,845.0,11,1,2.0,No,3,0.37,No,Low Risk: Share referral program with rewards
+N0307,38,Female,8016.0,668.0,12,109,5.0,No,2,0.288,No,Low Risk: Share referral program with rewards
+N0308,48,Female,5488.0,686.0,8,2,3.0,Yes,3,0.471,No,Low Risk: Provide exclusive loyalty program benefits
+N0309,54,Male,3564.0,891.0,4,40,1.0,No,4,0.343,No,Low Risk: Provide exclusive loyalty program benefits
+N0310,26,Female,8030.0,803.0,10,79,3.0,Yes,2,0.491,No,Low Risk: Send personalized birthday/anniversary offer
+N0311,23,Female,1920.0,640.0,3,15,5.0,Yes,0,0.387,No,Low Risk: Send personalized birthday/anniversary offer
+N0312,54,Male,888.0,444.0,2,27,4.0,No,2,0.143,No,Low Risk: Send personalized birthday/anniversary offer
+N0313,20,Female,4794.0,799.0,6,71,4.0,No,3,0.273,No,Low Risk: Provide exclusive loyalty program benefits
+N0314,32,Female,8082.0,898.0,9,37,4.0,Yes,2,0.45,No,Low Risk: Invite to VIP membership or premium plan
+N0315,29,Male,1216.0,608.0,2,74,5.0,No,1,0.149,No,Low Risk: Offer sneak peek of upcoming sales
+N0316,19,Male,4026.0,671.0,6,112,5.0,No,5,0.273,No,Low Risk: Send thank you email with appreciation message
+N0317,35,Female,2436.0,406.0,6,51,4.0,Yes,3,0.536,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0318,53,Male,4235.0,605.0,7,12,4.0,No,4,0.175,No,Low Risk: Send personalized birthday/anniversary offer
+N0319,56,Male,3344.0,418.0,8,105,3.0,Yes,0,0.431,No,Low Risk: Invite to VIP membership or premium plan
+N0320,28,Female,523.0,523.0,1,69,1.0,Yes,2,0.649,Yes,Medium Risk: Send push notification for price drop on wishlist items
+N0321,53,Female,2320.0,464.0,5,118,5.0,No,5,0.258,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0322,56,Male,1550.0,310.0,5,74,1.0,Yes,1,0.604,Yes,Medium Risk: Share customer reviews of previously viewed products
+N0323,25,Male,3248.0,464.0,7,10,4.0,Yes,1,0.465,No,Low Risk: Invite to VIP membership or premium plan
+N0324,40,Male,2994.0,499.0,6,106,4.0,No,2,0.236,No,Low Risk: Offer early access to new product launches
+N0325,33,Female,1038.0,346.0,3,52,5.0,No,5,0.223,No,Low Risk: Offer sneak peek of upcoming sales
+N0326,32,Female,1676.0,419.0,4,56,4.0,No,1,0.148,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0327,49,Male,2684.0,671.0,4,41,2.0,No,3,0.329,No,Low Risk: Provide bonus points for social sharing
+N0328,38,Male,2100.0,300.0,7,35,5.0,Yes,2,0.397,No,Low Risk: Offer sneak peek of upcoming sales
+N0329,23,Male,4980.0,830.0,6,33,3.0,No,0,0.431,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0330,18,Female,1240.0,310.0,4,91,3.0,Yes,3,0.589,Yes,Medium Risk: Recommend trending products based on browsing history
+N0331,58,Female,1430.0,715.0,2,96,2.0,Yes,0,0.592,Yes,Medium Risk: Send re-engagement email with new arrivals
+N0332,50,Female,1035.0,345.0,3,101,5.0,Yes,3,0.493,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0333,55,Female,3510.0,585.0,6,37,5.0,No,2,0.279,No,Low Risk: Offer early access to new product launches
+N0334,37,Male,2835.0,315.0,9,56,2.0,No,2,0.399,No,Low Risk: Send personalized birthday/anniversary offer
+N0335,52,Female,1719.0,573.0,3,114,1.0,No,3,0.404,No,Low Risk: Share referral program with rewards
+N0336,31,Female,4384.0,548.0,8,41,1.0,No,5,0.453,No,Low Risk: Offer early access to new product launches
+N0337,23,Female,7404.0,617.0,12,62,5.0,Yes,1,0.413,No,Low Risk: Provide exclusive loyalty program benefits
+N0338,54,Female,3600.0,720.0,5,109,5.0,No,5,0.253,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0339,25,Female,6472.0,809.0,8,110,1.0,Yes,4,0.642,Yes,Medium Risk: Share customer reviews of previously viewed products
+N0340,56,Female,5250.0,875.0,6,46,2.0,No,2,0.363,No,Low Risk: Send thank you email with appreciation message
+N0341,58,Female,3290.0,658.0,5,16,3.0,Yes,5,0.509,Yes,Medium Risk: Offer small discount (10%) on frequently viewed items
+N0342,50,Male,856.0,428.0,2,109,5.0,Yes,2,0.454,No,Low Risk: Provide bonus points for social sharing
+N0343,23,Female,942.0,314.0,3,25,4.0,Yes,0,0.482,No,Low Risk: Provide bonus points for social sharing
+N0344,60,Male,2684.0,671.0,4,111,2.0,Yes,5,0.581,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0345,45,Female,5495.0,785.0,7,78,3.0,Yes,3,0.494,No,Low Risk: Provide bonus points for social sharing
+N0346,23,Female,2490.0,498.0,5,74,5.0,Yes,2,0.438,No,Low Risk: Send thank you email with appreciation message
+N0347,23,Male,7909.0,719.0,11,14,2.0,No,4,0.425,No,Low Risk: Provide bonus points for social sharing
+N0348,22,Female,7200.0,720.0,10,104,2.0,No,3,0.472,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0349,45,Male,8965.0,815.0,11,118,5.0,Yes,1,0.466,No,Low Risk: Send personalized birthday/anniversary offer
+N0350,45,Female,4265.0,853.0,5,18,2.0,No,0,0.404,No,Low Risk: Send thank you email with appreciation message
+N0351,27,Male,3496.0,437.0,8,94,1.0,No,2,0.445,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0352,29,Female,5808.0,484.0,12,108,5.0,Yes,4,0.558,Yes,Medium Risk: Provide limited-time free delivery offer
+N0353,55,Female,2836.0,709.0,4,45,2.0,Yes,1,0.495,No,Low Risk: Send thank you email with appreciation message
+N0354,33,Male,4941.0,549.0,9,39,3.0,Yes,4,0.535,Yes,Medium Risk: Send push notification for price drop on wishlist items
+N0355,22,Female,4151.0,593.0,7,100,2.0,No,2,0.45,No,Low Risk: Share referral program with rewards
+N0356,48,Male,6208.0,776.0,8,53,1.0,No,3,0.345,No,Low Risk: Send personalized birthday/anniversary offer
+N0357,28,Male,7700.0,700.0,11,52,2.0,Yes,4,0.598,Yes,Medium Risk: Send re-engagement email with new arrivals
+N0358,21,Male,7048.0,881.0,8,29,5.0,No,0,0.301,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0359,24,Female,5715.0,635.0,9,51,1.0,Yes,2,0.634,Yes,Medium Risk: Send re-engagement email with new arrivals
+N0360,35,Male,1744.0,872.0,2,108,1.0,No,0,0.345,No,Low Risk: Provide bonus points for social sharing
+N0361,28,Female,2905.0,415.0,7,38,4.0,No,4,0.23,No,Low Risk: Share referral program with rewards
+N0362,25,Female,10188.0,849.0,12,72,4.0,Yes,5,0.529,Yes,Medium Risk: Share customer reviews of previously viewed products
+N0363,38,Male,1784.0,892.0,2,11,4.0,Yes,3,0.528,Yes,Medium Risk: Recommend trending products based on browsing history
+N0364,49,Male,4476.0,373.0,12,10,1.0,Yes,2,0.549,Yes,Medium Risk: Recommend trending products based on browsing history
+N0365,42,Male,3388.0,308.0,11,66,1.0,Yes,3,0.533,Yes,Medium Risk: Recommend trending products based on browsing history
+N0366,18,Female,7515.0,835.0,9,97,5.0,No,2,0.367,No,Low Risk: Offer early access to new product launches
+N0367,43,Female,4844.0,692.0,7,59,2.0,No,1,0.407,No,Low Risk: Offer early access to new product launches
+N0368,52,Female,2058.0,343.0,6,77,4.0,Yes,4,0.558,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0369,39,Male,4869.0,541.0,9,16,2.0,No,2,0.416,No,Low Risk: Offer early access to new product launches
+N0370,37,Female,2604.0,372.0,7,74,3.0,No,2,0.34,No,Low Risk: Send personalized birthday/anniversary offer
+N0371,44,Female,3280.0,656.0,5,44,2.0,Yes,4,0.537,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0372,23,Female,3264.0,408.0,8,54,2.0,Yes,3,0.643,Yes,Medium Risk: Offer bundle deals on related products
+N0373,58,Female,8232.0,686.0,12,84,3.0,Yes,1,0.467,No,Low Risk: Send personalized birthday/anniversary offer
+N0374,51,Male,6090.0,609.0,10,19,1.0,Yes,5,0.576,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0375,22,Female,5904.0,492.0,12,51,3.0,Yes,1,0.473,No,Low Risk: Share referral program with rewards
+N0376,59,Male,7848.0,654.0,12,81,4.0,Yes,5,0.511,Yes,Medium Risk: Offer small discount (10%) on frequently viewed items
+N0377,51,Male,6408.0,801.0,8,113,2.0,No,4,0.415,No,Low Risk: Provide exclusive loyalty program benefits
+N0378,26,Female,2139.0,713.0,3,39,5.0,No,4,0.159,No,Low Risk: Provide exclusive loyalty program benefits
+N0379,60,Male,3020.0,755.0,4,19,2.0,Yes,0,0.442,No,Low Risk: Offer early access to new product launches
+N0380,19,Female,3090.0,618.0,5,1,4.0,Yes,2,0.468,No,Low Risk: Provide bonus points for social sharing
+N0381,60,Female,4464.0,496.0,9,65,4.0,No,1,0.234,No,Low Risk: Provide bonus points for social sharing
+N0382,38,Female,682.0,682.0,1,76,1.0,Yes,0,0.61,Yes,Medium Risk: Send push notification for price drop on wishlist items
+N0383,42,Female,3605.0,721.0,5,33,5.0,Yes,0,0.44,No,Low Risk: Offer early access to new product launches
+N0384,60,Male,3885.0,555.0,7,1,4.0,No,1,0.168,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0385,18,Male,3732.0,622.0,6,76,2.0,No,5,0.406,No,Low Risk: Offer sneak peek of upcoming sales
+N0386,56,Female,8508.0,709.0,12,90,1.0,Yes,1,0.519,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0387,59,Female,4350.0,435.0,10,85,2.0,No,0,0.4,No,Low Risk: Invite to VIP membership or premium plan
+N0388,41,Female,6894.0,766.0,9,3,2.0,Yes,5,0.526,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0389,50,Female,321.0,321.0,1,90,5.0,No,0,0.173,No,Low Risk: Provide bonus points for social sharing
+N0390,54,Female,1316.0,658.0,2,93,5.0,No,4,0.182,No,Low Risk: Provide exclusive loyalty program benefits
+N0391,19,Female,8700.0,870.0,10,111,2.0,No,4,0.441,No,Low Risk: Offer sneak peek of upcoming sales
+N0392,45,Female,3920.0,392.0,10,6,5.0,No,0,0.259,No,Low Risk: Invite to VIP membership or premium plan
+N0393,48,Female,2848.0,712.0,4,43,1.0,No,5,0.411,No,Low Risk: Provide exclusive loyalty program benefits
+N0394,48,Female,732.0,366.0,2,28,5.0,Yes,4,0.433,No,Low Risk: Provide exclusive loyalty program benefits
+N0395,23,Male,4476.0,746.0,6,29,1.0,Yes,3,0.602,Yes,Medium Risk: Share customer reviews of previously viewed products
+N0396,46,Female,2574.0,858.0,3,74,4.0,No,4,0.255,No,Low Risk: Offer early access to new product launches
+N0397,28,Female,8690.0,790.0,11,69,1.0,Yes,1,0.59,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0398,52,Male,5144.0,643.0,8,109,5.0,Yes,3,0.469,No,Low Risk: Provide exclusive loyalty program benefits
+N0399,28,Male,423.0,423.0,1,52,4.0,No,3,0.158,No,Low Risk: Offer sneak peek of upcoming sales
+N0400,39,Female,4550.0,650.0,7,75,1.0,Yes,5,0.602,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0401,30,Male,8340.0,834.0,10,16,5.0,No,5,0.27,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0402,39,Male,7843.0,713.0,11,110,1.0,No,1,0.373,No,Low Risk: Send personalized birthday/anniversary offer
+N0403,21,Female,4326.0,721.0,6,77,4.0,No,1,0.286,No,Low Risk: Share referral program with rewards
+N0404,30,Female,6928.0,866.0,8,26,2.0,No,4,0.402,No,Low Risk: Share referral program with rewards
+N0405,59,Female,4308.0,359.0,12,75,2.0,No,3,0.34,No,Low Risk: Send thank you email with appreciation message
+N0406,49,Female,1012.0,506.0,2,59,1.0,No,1,0.35,No,Low Risk: Invite to VIP membership or premium plan
+N0407,34,Female,4609.0,419.0,11,50,5.0,Yes,0,0.406,No,Low Risk: Provide bonus points for social sharing
+N0408,44,Female,6516.0,543.0,12,108,1.0,No,5,0.438,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0409,45,Male,4145.0,829.0,5,67,5.0,No,0,0.346,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0410,23,Male,3912.0,326.0,12,77,1.0,No,4,0.386,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0411,55,Male,2795.0,559.0,5,18,3.0,Yes,1,0.453,No,Low Risk: Share referral program with rewards
+N0412,42,Male,2864.0,716.0,4,118,4.0,Yes,2,0.457,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0413,47,Male,4670.0,467.0,10,31,5.0,Yes,2,0.461,No,Low Risk: Offer early access to new product launches
+N0414,40,Female,742.0,371.0,2,48,2.0,No,2,0.284,No,Low Risk: Offer sneak peek of upcoming sales
+N0415,40,Male,5274.0,586.0,9,30,1.0,No,4,0.379,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0416,39,Female,2515.0,503.0,5,6,2.0,No,4,0.329,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0417,31,Female,3395.0,485.0,7,37,1.0,Yes,4,0.614,Yes,Medium Risk: Share customer reviews of previously viewed products
+N0418,47,Female,2416.0,604.0,4,117,4.0,Yes,5,0.548,Yes,Medium Risk: Send re-engagement email with new arrivals
+N0419,51,Female,867.0,867.0,1,102,1.0,Yes,1,0.636,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0420,35,Female,377.0,377.0,1,34,1.0,Yes,2,0.617,Yes,Medium Risk: Send push notification for price drop on wishlist items
+N0421,42,Male,2368.0,592.0,4,106,1.0,No,1,0.392,No,Low Risk: Provide bonus points for social sharing
+N0422,57,Male,3652.0,332.0,11,91,3.0,No,4,0.35,No,Low Risk: Offer sneak peek of upcoming sales
+N0423,47,Female,2286.0,381.0,6,94,1.0,Yes,2,0.649,Yes,Medium Risk: Recommend trending products based on browsing history
+N0424,30,Female,5456.0,682.0,8,84,5.0,No,2,0.346,No,Low Risk: Provide exclusive loyalty program benefits
+N0425,53,Female,1404.0,468.0,3,27,1.0,Yes,2,0.607,Yes,Medium Risk: Offer bundle deals on related products
+N0426,28,Female,5280.0,660.0,8,110,1.0,Yes,5,0.657,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0427,39,Male,5912.0,739.0,8,84,2.0,Yes,0,0.502,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0428,56,Female,1948.0,487.0,4,21,2.0,Yes,2,0.631,Yes,Medium Risk: Share customer reviews of previously viewed products
+N0429,34,Male,9768.0,888.0,11,115,1.0,Yes,0,0.616,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0430,46,Female,4472.0,559.0,8,29,3.0,No,2,0.361,No,Low Risk: Provide exclusive loyalty program benefits
+N0431,57,Female,3830.0,383.0,10,58,3.0,No,1,0.338,No,Low Risk: Provide exclusive loyalty program benefits
+N0432,18,Female,9456.0,788.0,12,115,2.0,Yes,1,0.616,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0433,46,Male,5360.0,536.0,10,51,3.0,No,3,0.38,No,Low Risk: Send thank you email with appreciation message
+N0434,54,Female,6041.0,863.0,7,54,4.0,No,4,0.232,No,Low Risk: Provide bonus points for social sharing
+N0435,55,Male,2915.0,583.0,5,106,5.0,No,4,0.29,No,Low Risk: Provide exclusive loyalty program benefits
+N0436,52,Female,6992.0,874.0,8,120,1.0,Yes,5,0.635,Yes,Medium Risk: Offer small discount (10%) on frequently viewed items
+N0437,54,Female,4862.0,442.0,11,62,3.0,Yes,2,0.488,No,Low Risk: Offer sneak peek of upcoming sales
+N0438,52,Female,4788.0,798.0,6,76,5.0,No,2,0.338,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0439,18,Male,2727.0,303.0,9,58,1.0,No,5,0.367,No,Low Risk: Offer early access to new product launches
+N0440,46,Male,7144.0,893.0,8,4,2.0,Yes,1,0.469,No,Low Risk: Offer early access to new product launches
+N0441,29,Female,1238.0,619.0,2,32,2.0,No,1,0.293,No,Low Risk: Invite to VIP membership or premium plan
+N0442,50,Female,3105.0,621.0,5,56,5.0,No,3,0.303,No,Low Risk: Send thank you email with appreciation message
+N0443,48,Female,9600.0,800.0,12,8,1.0,Yes,2,0.532,Yes,Medium Risk: Send push notification for price drop on wishlist items
+N0444,56,Male,4415.0,883.0,5,84,5.0,Yes,5,0.46,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0445,56,Male,1210.0,605.0,2,78,3.0,No,2,0.26,No,Low Risk: Invite to VIP membership or premium plan
+N0446,23,Female,1203.0,401.0,3,44,3.0,No,3,0.246,No,Low Risk: Send thank you email with appreciation message
+N0447,58,Female,2876.0,719.0,4,104,1.0,Yes,0,0.566,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0448,46,Female,741.0,741.0,1,6,1.0,Yes,0,0.532,Yes,Medium Risk: Recommend trending products based on browsing history
+N0449,35,Female,1104.0,368.0,3,38,1.0,Yes,3,0.609,Yes,Medium Risk: Recommend trending products based on browsing history
+N0450,45,Female,4361.0,623.0,7,31,3.0,Yes,1,0.443,No,Low Risk: Provide bonus points for social sharing
+N0451,33,Female,10752.0,896.0,12,81,4.0,No,3,0.264,No,Low Risk: Provide exclusive loyalty program benefits
+N0452,50,Male,6804.0,756.0,9,46,5.0,No,3,0.269,No,Low Risk: Offer early access to new product launches
+N0453,38,Female,6384.0,798.0,8,80,5.0,Yes,3,0.449,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0454,52,Female,2260.0,452.0,5,19,1.0,No,4,0.325,No,Low Risk: Send thank you email with appreciation message
+N0455,31,Female,4840.0,605.0,8,1,3.0,Yes,4,0.534,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0456,41,Female,3675.0,735.0,5,83,3.0,No,2,0.394,No,Low Risk: Provide exclusive loyalty program benefits
+N0457,44,Male,1191.0,397.0,3,18,5.0,No,5,0.206,No,Low Risk: Offer early access to new product launches
+N0458,49,Female,1248.0,624.0,2,1,4.0,Yes,5,0.506,Yes,Medium Risk: Offer bundle deals on related products
+N0459,48,Female,894.0,447.0,2,2,2.0,Yes,3,0.572,Yes,Medium Risk: Send cart reminder with limited-time offer
+N0460,46,Female,732.0,732.0,1,67,4.0,Yes,5,0.561,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0461,23,Female,1869.0,623.0,3,8,4.0,No,2,0.134,No,Low Risk: Offer early access to new product launches
+N0462,48,Male,7450.0,745.0,10,4,4.0,Yes,4,0.496,No,Low Risk: Provide exclusive loyalty program benefits
+N0463,29,Male,2046.0,682.0,3,56,4.0,No,5,0.245,No,Low Risk: Invite to VIP membership or premium plan
+N0464,27,Male,4254.0,709.0,6,117,2.0,No,1,0.404,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0465,20,Female,3024.0,378.0,8,7,4.0,No,3,0.217,No,Low Risk: Share referral program with rewards
+N0466,30,Male,2648.0,331.0,8,102,5.0,Yes,0,0.421,No,Low Risk: Invite to VIP membership or premium plan
+N0467,28,Female,2148.0,716.0,3,28,3.0,Yes,5,0.582,Yes,Medium Risk: Send push notification for price drop on wishlist items
+N0468,37,Male,5382.0,897.0,6,42,1.0,Yes,5,0.561,Yes,Medium Risk: Send re-engagement email with new arrivals
+N0469,31,Male,752.0,752.0,1,36,1.0,Yes,4,0.61,Yes,Medium Risk: Send re-engagement email with new arrivals
+N0470,34,Male,4424.0,632.0,7,74,3.0,No,2,0.442,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0471,40,Female,3730.0,746.0,5,70,3.0,Yes,2,0.475,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0472,60,Female,3475.0,695.0,5,19,4.0,Yes,0,0.456,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0473,30,Female,1488.0,372.0,4,84,3.0,No,4,0.288,No,Low Risk: Provide exclusive loyalty program benefits
+N0474,25,Male,4543.0,413.0,11,24,4.0,No,0,0.219,No,Low Risk: Provide bonus points for social sharing
+N0475,53,Male,3756.0,313.0,12,88,2.0,Yes,3,0.535,Yes,Medium Risk: Offer loyalty reward points on next purchase
+N0476,34,Female,3388.0,847.0,4,106,1.0,No,0,0.417,No,Low Risk: Invite to VIP membership or premium plan
+N0477,23,Male,5052.0,842.0,6,50,4.0,No,5,0.28,No,Low Risk: Invite to VIP membership or premium plan
+N0478,21,Male,5418.0,774.0,7,42,1.0,Yes,0,0.574,Yes,Medium Risk: Recommend trending products based on browsing history
+N0479,55,Male,2597.0,371.0,7,41,2.0,No,3,0.29,No,Low Risk: Share referral program with rewards
+N0480,29,Male,3870.0,387.0,10,36,5.0,Yes,0,0.409,No,Low Risk: No action needed - Keep engaging with regular newsletters
+N0481,36,Female,8000.0,800.0,10,91,3.0,No,0,0.414,No,Low Risk: Send personalized birthday/anniversary offer
+N0482,19,Female,535.0,535.0,1,47,2.0,No,4,0.357,No,Low Risk: Offer early access to new product launches
+N0483,60,Male,3078.0,342.0,9,18,4.0,No,4,0.177,No,Low Risk: Provide bonus points for social sharing
+N0484,55,Male,3983.0,569.0,7,31,2.0,No,5,0.376,No,Low Risk: Share referral program with rewards
+N0485,52,Female,3708.0,618.0,6,21,5.0,Yes,1,0.438,No,Low Risk: Provide exclusive loyalty program benefits
+N0486,59,Female,2970.0,594.0,5,40,2.0,No,1,0.341,No,Low Risk: Send thank you email with appreciation message
+N0487,18,Male,656.0,328.0,2,119,3.0,No,5,0.411,No,Low Risk: Invite to VIP membership or premium plan
+N0488,26,Male,3816.0,424.0,9,119,3.0,Yes,1,0.501,Yes,Medium Risk: Share customer reviews of previously viewed products
+N0489,44,Female,4398.0,733.0,6,63,5.0,No,2,0.342,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0490,57,Female,2274.0,379.0,6,63,3.0,No,2,0.241,No,Low Risk: Share referral program with rewards
+N0491,51,Female,3751.0,341.0,11,50,3.0,No,5,0.371,No,Low Risk: Provide bonus points for social sharing
+N0492,58,Male,1552.0,776.0,2,59,1.0,Yes,0,0.565,Yes,Medium Risk: Send personalized email with product recommendations + SMS reminder
+N0493,20,Male,5796.0,644.0,9,10,3.0,No,5,0.376,No,Low Risk: Offer sneak peek of upcoming sales
+N0494,59,Male,6615.0,735.0,9,64,5.0,Yes,2,0.395,No,Low Risk: Offer early access to new product launches
+N0495,25,Male,9691.0,881.0,11,2,5.0,No,0,0.257,No,Low Risk: Invite to VIP membership or premium plan
+N0496,47,Male,8390.0,839.0,10,90,2.0,Yes,3,0.535,Yes,Medium Risk: Offer small discount (10%) on frequently viewed items
+N0497,56,Female,3096.0,516.0,6,46,2.0,Yes,2,0.535,Yes,Medium Risk: Provide limited-time free delivery offer
+N0498,34,Male,3655.0,731.0,5,83,5.0,Yes,3,0.462,No,"Low Risk: Engage with interactive content (polls, quizzes)"
+N0499,44,Female,6369.0,579.0,11,44,4.0,Yes,5,0.527,Yes,Medium Risk: Provide limited-time free delivery offer
+N0500,42,Female,1314.0,438.0,3,47,5.0,Yes,4,0.458,No,Low Risk: Provide bonus points for social sharing

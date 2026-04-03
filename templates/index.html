@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Churn Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>    
+</head>
+<body>
+    <!-- <div class="container"> -->
+        <header>
+            <h1>Customer Churn Prediction</h1>
+            <p>Upload customer data to predict churn probability</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/dashboard">Dashboard</a></li>
+                <li><a href="/individual">Individual Prediction</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="upload-section">
+                <h2>Upload CSV File</h2>
+                
+                <div class="upload-box" id="uploadBox">
+                    <input type="file" id="fileInput" accept=".csv" hidden>
+                    <div class="upload-icon">📁</div>
+                    <p>Click to upload or drag and drop</p>
+                    <p class="small">CSV files only</p>
+                </div>
+
+                <div class="preview-section" id="previewSection" style="display: none;">
+                    <h3>File Preview</h3>
+                    <div class="table-container">
+                        <table id="previewTable">
+                            <thead>
+                                <tr id="tableHeader"></tr>
+                            </thead>
+                            <tbody id="tableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <button id="processBtn" class="btn" style="display: none;">Process Data</button>
+
+                <div class="loading" id="loading" style="display: none;">
+                    <div class="spinner"></div>
+                    <p>Processing your data...</p>
+                </div>
+
+                <div class="results" id="results" style="display: none;">
+                    <h3>Results Summary</h3>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value" id="totalCustomers">0</div>
+                            <div class="stat-label">Total Customers</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="highRisk">0</div>
+                            <div class="stat-label">High Risk</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="mediumRisk">0</div>
+                            <div class="stat-label">Medium Risk</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="lowRisk">0</div>
+                            <div class="stat-label">Low Risk</div>
+                        </div>
+                    </div>
+                    
+                    <div class="action-buttons">
+                        <a href="/dashboard" class="btn">View Dashboard</a>
+                        <a href="/download" class="btn btn-secondary">Download Results</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h3>Required CSV Format</h3>
+                <table class="format-table">
+                    <tr>
+                        <th>Column Name</th>
+                        <th>Description</th>
+                        <th>Example</th>
+                    </tr>
+                    <tr>
+                        <td>Customer_ID</td>
+                        <td>Unique customer ID</td>
+                        <td>CUST001</td>
+                    </tr>
+                    <tr>
+                        <td>Age</td>
+                        <td>Customer age</td>
+                        <td>35</td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>Male/Female</td>
+                        <td>Male</td>
+                    </tr>
+                    <tr>
+                        <td>Total_Spend</td>
+                        <td>Total amount spent</td>
+                        <td>1500.50</td>
+                    </tr>
+                    <tr>
+                        <td>Average_Order_Value</td>
+                        <td>Average order value</td>
+                        <td>75.25</td>
+                    </tr>
+                    <tr>
+                        <td>Purchase_Frequency</td>
+                        <td>Purchases per year</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Last_Purchase_Days</td>
+                        <td>Days since last purchase</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Customer_Rating</td>
+                        <td>Rating (1-5)</td>
+                        <td>4.5</td>
+                    </tr>
+                    <tr>
+                        <td>Complaint_Raised</td>
+                        <td>Yes/No</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Return_Count</td>
+                        <td>Number of returns</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    <!-- </div> -->
+    
+    <script>
+        const fileInput = document.getElementById('fileInput');
+        const uploadBox = document.getElementById('uploadBox');
+        const previewSection = document.getElementById('previewSection');
+        const processBtn = document.getElementById('processBtn');
+        const loading = document.getElementById('loading');
+        const results = document.getElementById('results');
+
+        uploadBox.addEventListener('click', () => {
+            fileInput.click();
+        });
+
+        uploadBox.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadBox.style.borderColor = '#4CAF50';
+        });
+
+        uploadBox.addEventListener('dragleave', () => {
+            uploadBox.style.borderColor = '#ddd';
+        });
+
+        uploadBox.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadBox.style.borderColor = '#ddd';
+            const file = e.dataTransfer.files[0];
+            if (file && file.name.endsWith('.csv')) {
+                handleFile(file);
+            } else {
+                alert('Please upload a CSV file');
+            }
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files[0]) {
+                handleFile(e.target.files[0]);
+            }
+        });
+
+        function handleFile(file) {
+            const reader = new FileReader();
+            
+            reader.onload = function(e) {
+                const text = e.target.result;
+                const rows = text.split('\n').map(row => row.split(','));
+                
+                // Show preview
+                const header = rows[0];
+                const data = rows.slice(1, 6); // First 5 rows
+                
+                const tableHeader = document.getElementById('tableHeader');
+                const tableBody = document.getElementById('tableBody');
+                
+                tableHeader.innerHTML = '';
+                header.forEach(col => {
+                    const th = document.createElement('th');
+                    th.textContent = col.trim();
+                    tableHeader.appendChild(th);
+                });
+                
+                tableBody.innerHTML = '';
+                data.forEach(row => {
+                    if (row.length > 1) {
+                        const tr = document.createElement('tr');
+                        row.forEach(cell => {
+                            const td = document.createElement('td');
+                            td.textContent = cell.trim();
+                            tr.appendChild(td);
+                        });
+                        tableBody.appendChild(tr);
+                    }
+                });
+                
+                previewSection.style.display = 'block';
+                processBtn.style.display = 'block';
+            };
+            
+            reader.readAsText(file);
+        }
+
+        processBtn.addEventListener('click', () => {
+            const file = fileInput.files[0];
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            loading.style.display = 'block';
+            processBtn.disabled = true;
+            
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                loading.style.display = 'none';
+                
+                if (data.success) {
+                    document.getElementById('totalCustomers').textContent = data.summary.total_customers;
+                    document.getElementById('highRisk').textContent = data.summary.high_risk;
+                    document.getElementById('mediumRisk').textContent = data.summary.medium_risk;
+                    document.getElementById('lowRisk').textContent = data.summary.low_risk;
+                    
+                    results.style.display = 'block';
+                } else {
+                    alert('Error: ' + data.error);
+                }
+            })
+            .catch(error => {
+                loading.style.display = 'none';
+                alert('Error uploading file');
+            })
+            .finally(() => {
+                processBtn.disabled = false;
+            });
+        });
+    </script>
+</body>
+</html>
